@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    color: rgb(227, 227, 227);
+}
+
+html {
+    background: linear-gradient(0deg, rgb(36, 36, 36) 0%, rgba(23,23,23,1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul_container {
+    padding: 10px;
+    border-color: rgb(224, 224, 224);
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #334257;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px;
+    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+ul {
+    list-style-type:decimal;
+}
